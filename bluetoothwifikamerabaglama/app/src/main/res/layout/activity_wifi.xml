@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ToggleButton
+        android:id="@+id/toggleWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="WiFi Açık"
+        android:textOff="WiFi Kapalı"
+        android:checked="false"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Geri"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/back_button"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

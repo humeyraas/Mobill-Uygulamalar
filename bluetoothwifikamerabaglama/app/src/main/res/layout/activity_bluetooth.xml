@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEnable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Aç" />
+
+    <Button
+        android:id="@+id/btnDisable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Kapat"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnVisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Görünür Yap"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnPairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eşleşmiş Cihazları Listele"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:id="@+id/listDevices"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Geri"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/back_button"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+
+</LinearLayout>
